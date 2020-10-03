@@ -6,13 +6,13 @@
 }
 
 body{
-    background: #CED4DA;
+    background: white;
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;;
     box-sizing: border-box;
     
 }
 .menu-bar {
-    background: rgb(0, 0, 0);
+    background: #212529;
     text-align: center;
     
 }
@@ -37,19 +37,21 @@ body{
     width: 150px;
     background: none;
     color: #ffffff;
+    background: #495057;
     text-align: center;
-    border: 2px solid;
+    border: 0;
     outline: none;
     padding: 5px;
     border-radius: 20px;
-    transition: 0.50s;
+    transition: 0.25s;
     
 
 }
 
 .menu-bar input[type="text"]:focus{
-    width: 200px;
-    border-color: #2ecc71;
+    width: 400px;
+    background: #495057;
+    border: 0;
     
     
 
@@ -68,4 +70,53 @@ body{
     border-radius: 20px;
      
 
+}
+
+.macMenu{
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.macMenu ul{
+    
+    display: inline-flex;
+    list-style: none;
+    
+}
+
+.macMenu ul li{
+    
+    padding: 5px;
+    margin: 5px;
+    
+    
+    
+}
+
+.chapternav{
+    width: 104px;
+    height: 52px;
+    
+    background-color: #ffffff;
+    background-size: 104px 52px;
+    background-repeat: no-repeat;
+    outline: none;
+    
+    
+    
+}
+
+.chapternav-macbook-air{
+    
+    background-image: url(/home/mubassir/Pictures/macbook\ Air.svg);  
+    
+}
+
+.chapternav-macbook-pro{
+    
+    background-image: url(/home/mubassir/Pictures/macbook\ pro.jpg)
+    
+    
 }
