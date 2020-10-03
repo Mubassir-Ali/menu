@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background: #333333;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+.menu-bar {
+    background: rgb(2, 130, 134);
+    text-align: center;
+    
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #ffffff;
+}
+
+.menu-bar ul li{
+    
+    margin: 15px;
+    padding: 15px;
+
+    
+
+}
